@@ -115,100 +115,90 @@ python src/train_dl.py
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-ML_Airbnb_Barcelona_Madrid_Seville
-📌 Project: Analysis and Prediction of Listings in Barcelona, Madrid, and Seville
-📖 Description
-This project aims to analyze a dataset of Airbnb listings in the cities of Barcelona, Madrid, and Seville. Through a process of Exploratory Data Analysis (EDA) and the application of Machine Learning (ML) and Deep Learning (DL) models, we seek to identify patterns and predict key variables such as listing prices.
+# ML_Airbnb_Barcelona_Madrid_Seville
+# 📌 Project: Analysis and Prediction of Listings in Barcelona, Madrid, and Seville
 
-📂 Project Structure
-bash
-Copiar
-Editar
+## 📖 Description
+This project aims to analyze a dataset of Airbnb listings in the cities of **Barcelona, Madrid, and Seville**. Through a process of **Exploratory Data Analysis (EDA)** and the application of **Machine Learning (ML) and Deep Learning (DL)** models, we aim to identify patterns and predict key variables such as **listing prices**.
+
+---
+## 📂 Project Structure
+
 /
-|-- data/                    # Raw and preprocessed data
-|   |-- dataset_original.csv  # Initial unmodified dataset
-|   |-- dataset_limpio.csv    # Preprocessed and clean dataset
+|-- data/ # Raw and preprocessed data
+| |-- dataset_original.csv # Initial unmodified dataset
+| |-- dataset_limpio.csv # Preprocessed and clean dataset
 |
-|-- notebooks/               # Analysis and modeling notebooks
-|   |-- 01_EDA.ipynb         # Data exploration and visualization
-|   |-- 02_Feature_Engineering.ipynb # Feature creation and selection
-|   |-- 03_Machine_Learning.ipynb   # ML models for prediction
-|   |-- 04_Deep_Learning.ipynb      # DL models using neural networks
+|-- notebooks/ # Analysis and modeling notebooks
+| |-- 01_EDA.ipynb # Data exploration and visualization
+| |-- 02_Feature_Engineering.ipynb # Feature creation and selection
+| |-- 03_Machine_Learning.ipynb # ML models for prediction
+| |-- 04_Deep_Learning.ipynb # DL models with neural networks
 |
-|-- models/                  # Trained models
-|   |-- ml_model.pkl         # Saved ML model
-|   |-- dl_model.h5          # Saved DL model
+|-- models/ # Trained models
+| |-- ml_model.pkl # Saved ML model
+| |-- dl_model.h5 # Saved DL model
 |
-|-- src/                     # Source code
-|   |-- preprocessing.py     # Data cleaning and transformation functions
-|   |-- train_ml.py          # ML model training
-|   |-- train_dl.py          # Neural network training
+|-- src/ # Source code
+| |-- preprocessing.py # Data cleaning and transformation functions
+| |-- train_ml.py # ML model training
+| |-- train_dl.py # Neural network training
 |
-|-- README.md                # This file with the project description
-|-- requirements.txt         # Required libraries to run the code
-🚀 Technologies Used
-Python 3.x
+|-- README.md # This file with the project description
+|-- requirements.txt # Required libraries to run the code
 
-Pandas, NumPy (Data manipulation)
-
-Matplotlib, Seaborn, Plotly (Data visualization)
-
-Scikit-learn (Machine Learning models)
-
-TensorFlow, Keras (Neural networks and Deep Learning)
-
-🔍 Exploratory Data Analysis (EDA)
-During this stage, the following tasks were carried out:
-
-Cleaning and handling of missing values
-
-Distribution of prices and other key attributes
-
-Correlation analysis between variables
-
-Identification of outliers and anomalies
-
-🤖 ML and DL Modeling
-1️⃣ Machine Learning (ML) Models
-Different models were tested to predict listing prices:
-
-Linear Regression
-
-Decision Trees
-
-Random Forest
-
-Gradient Boosting (XGBoost, LightGBM)
-
-📌 Best performing model: Random Forest Classifier
-
-2️⃣ Deep Learning (DL) Models
-A Neural Network was implemented with the following architecture:
-
-Input layer with normalized variables
-
-2 hidden layers with ReLU activation
-
-Output layer with a single neuron for price prediction
-
-📌 Results: the neural network outperformed traditional models with lower error on the test set.
-
-📊 Visualizations
-Some generated plots include:
-
-Correlation heatmap
-
-Price distribution histograms
-
-Scatter plots between price and other variables
-
-Density maps of listings by city
-
-🛠 Installation and Usage
-1️⃣ Clone the repository
-bash
+yaml
 Copiar
 Editar
+
+---
+## 🚀 Technologies Used
+- **Python 3.x**
+- **Pandas, NumPy** (Data manipulation)
+- **Matplotlib, Seaborn, Plotly** (Data visualization)
+- **Scikit-learn** (Machine Learning models)
+- **TensorFlow, Keras** (Neural networks and Deep Learning)
+
+---
+## 🔍 Exploratory Data Analysis (EDA)
+During this stage, the following tasks were performed:
+- Cleaning and handling of missing values
+- Distribution of prices and other key attributes
+- Correlation analysis between variables
+- Identification of outliers and anomalies
+
+---
+## 🤖 Modeling with ML and DL
+
+### **1️⃣ Machine Learning (ML) Models**
+Different models were tested to predict listing prices:
+- **Linear Regression**
+- **Decision Trees**
+- **Random Forest**
+- **Gradient Boosting (XGBoost, LightGBM)**
+
+📌 *Best performing model: Random Forest Classifier*
+
+### **2️⃣ Deep Learning (DL) Models**
+A Neural Network was implemented with the following architecture:
+- Input layer with **normalized variables**
+- 2 hidden layers with **ReLU activation**
+- Output layer with a single neuron for **price prediction**
+
+📌 *Results: the neural network outperformed traditional models with lower error on the test set.*
+
+---
+## 📊 Visualizations
+Some of the generated charts include:
+- Correlation heatmap
+- Price distribution histograms
+- Scatter plots between price and other variables
+- Density maps of listings by city
+
+---
+## 🛠 Installation and Usage
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/usuario/proyecto-airbnb.git
 cd proyecto-airbnb
 2️⃣ Install dependencies
@@ -236,9 +226,8 @@ There are significant price differences between the cities.
 
 Availability and number of reviews influence the price.
 
-ML and DL models can predict price with good accuracy.
+ML and DL models can predict prices with good accuracy.
 
-ML and DL models can also predict high and low demand periods with good accuracy.
+ML and DL models can predict high and low demand periods with good accuracy.
 
 We hope this project is useful and serves as a reference for future analyses! 🚀
-
