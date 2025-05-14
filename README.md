@@ -125,31 +125,27 @@ This project aims to analyze a dataset of Airbnb listings in the cities of **Bar
 ## 📂 Project Structure
 
 /
-|-- data/ # Raw and preprocessed data
-| |-- dataset_original.csv # Initial unmodified dataset
-| |-- dataset_limpio.csv # Preprocessed and clean dataset
+|-- data/                    # Raw and preprocessed data
+|   |-- dataset_original.csv  # Initial unmodified dataset
+|   |-- dataset_limpio.csv    # Preprocessed and clean dataset
 |
-|-- notebooks/ # Analysis and modeling notebooks
-| |-- 01_EDA.ipynb # Data exploration and visualization
-| |-- 02_Feature_Engineering.ipynb # Feature creation and selection
-| |-- 03_Machine_Learning.ipynb # ML models for prediction
-| |-- 04_Deep_Learning.ipynb # DL models with neural networks
+|-- notebooks/               # Analysis and modeling notebooks
+|   |-- 01_EDA.ipynb         # Data exploration and visualization
+|   |-- 02_Feature_Engineering.ipynb # Feature creation and selection
+|   |-- 03_Machine_Learning.ipynb   # ML models for prediction
+|   |-- 04_Deep_Learning.ipynb      # DL models with neural networks
 |
-|-- models/ # Trained models
-| |-- ml_model.pkl # Saved ML model
-| |-- dl_model.h5 # Saved DL model
+|-- models/                  # Trained models
+|   |-- ml_model.pkl         # Saved ML model
+|   |-- dl_model.h5          # Saved DL model
 |
-|-- src/ # Source code
-| |-- preprocessing.py # Data cleaning and transformation functions
-| |-- train_ml.py # ML model training
-| |-- train_dl.py # Neural network training
+|-- src/                     # Source code
+|   |-- preprocessing.py     # Data cleaning and transformation functions
+|   |-- train_ml.py          # ML model training
+|   |-- train_dl.py          # Neural network training
 |
-|-- README.md # This file with the project description
-|-- requirements.txt # Required libraries to run the code
-
-yaml
-Copiar
-Editar
+|-- README.md                # This file with the project description
+|-- requirements.txt         # Required libraries to run the code
 
 ---
 ## 🚀 Technologies Used
