@@ -123,7 +123,7 @@ This project aims to analyze a dataset of Airbnb listings in the cities of **Bar
 
 ---
 ## 📂 Project Structure
-
+```
 /
 |-- data/                    # Raw and preprocessed data
 |   |-- dataset_original.csv  # Initial unmodified dataset
@@ -146,7 +146,7 @@ This project aims to analyze a dataset of Airbnb listings in the cities of **Bar
 |
 |-- README.md                # This file with the project description
 |-- requirements.txt         # Required libraries to run the code
-
+```
 ---
 ## 🚀 Technologies Used
 - **Python 3.x**
